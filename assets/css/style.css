@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(6, 80, 95);
+  background-image: url(../images/papel-de-parede-gradiente-em-grade-digital-azul-marinho.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(247, 244, 244);
+  display: flex;
+  padding-top: 5vh;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: calc(1rem + 1.2vw); /* Tamanho da fonte em relação à largura da viewport */
+  margin-top: 3%;
+}
+
+p {
+  font-size: calc(0.8rem + 1vw); /* Tamanho da fonte em relação à largura da viewport */
+}
+
+.logo {
+  margin-top: 15%;
+  width: 300px; /* Largura em relação à largura da viewport */
+}
+
+div.col {
+  height: 15vh; /* Altura da coluna, define a altura do botão*/
+  max-height: 60px; /*Limite de altura da coluna*/
+  margin-bottom: 2vh; /* Defini uma margem abaixo da 
+  div*/
+  margin-top: 3%;
+}
+
+.btn-primary {
+  background-color: rgb(247, 244, 244);
+  color: rgb(6, 80, 95);
+  border: none;
+  cursor: pointer;
+  width: 30%; /* Define que a largura do botão ira preencher 30% da div*/
+  min-width: 200px;
+  height: 100%; /* Define que a altura do botão ira preencher 100% da div*/
+}
+
